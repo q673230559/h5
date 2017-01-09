@@ -1,0 +1,194 @@
+nav
+{
+	background: #ccc;
+	height: 50px;
+}
+
+#banner
+{
+	background: #777;
+	height: 750px;
+}
+
+.hr
+{
+	width: 100%;
+	height: 2px;
+	margin: 20px auto;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+
+nav ul li,nav .logo
+{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+nav ul li a,nav .logo a
+{
+	line-height: inherit;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+	
+}
+
+nav .logo
+{
+	float: left;
+	padding-left: 20px;
+}
+
+#banner .inner
+{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+}
+
+#banner .inner .hr
+{
+	margin: 0 0;
+}
+
+#banner .inner h1
+{
+	margin: 0;
+}
+
+button
+{
+	border: none;
+	background: #333;
+	color: #eee;
+	padding: 10px;
+}
+
+#banner button
+{
+	padding: 15px 30px;
+}
+
+#banner .inner .more
+{
+	margin-top: 200px;
+}
+
+.sub-heading
+{
+	line-height: 30px;
+	margin: 30px;
+	font-size: 18px;
+}
+
+.logo 
+{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.green-section .wrapper h2
+{
+	margin: 0;
+}
+
+
+.green-section
+{
+	text-align: center;
+	background: #0A774A;
+	color: #fff;
+	padding: 100px 0;
+}
+
+.green-section .hr
+{
+		background: #064C2F;
+		width: 60%;
+}
+
+.green-section .icon-group .icon
+{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+/*	border: 1px solid #064C2F;*/
+	background: #064C2F;
+	transform: rotate(45deg);
+	margin: 20px;
+}
+
+.icon-group
+{
+	margin-top: 60px;
+}
+
+.wrapper
+{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.gray-section
+{
+	background: #000;
+}
+
+.gray-section .img-section
+{
+	max-width: 45%;
+}
+
+.img-section img
+{
+	width: 100%;	
+}
+
+.gray-section .text-section 
+{
+	width: 55%;
+	color: #eee;
+}
+
+.artical-preview > div
+{
+	float: left;	
+	font-size: 0;
+}
+
+.artical-preview:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.text-section
+{
+	position: relative;
+	top: 68px;
+	left: 50px;
+	
+}
+
+.text-section h2
+{
+	color: #eee;
+}
+
+.text-section p
+{
+	font-size: 18px;
+	letter-spacing: 1px;	
+}
